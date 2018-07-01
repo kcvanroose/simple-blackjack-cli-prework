@@ -55,7 +55,7 @@ def runner
   welcome
   value = initial_round
   until value > 21
-    hit?(value)
+   value = hit?(value)
   end
   end_game(score)
 end
