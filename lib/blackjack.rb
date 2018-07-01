@@ -35,6 +35,7 @@ def hit(total)
   resp = get_user_input
   if resp == h
     total += deal_card
+    return total
   elsif resp == s
     return
   else
