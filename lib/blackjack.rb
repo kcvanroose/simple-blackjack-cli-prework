@@ -35,11 +35,14 @@ def hit(total)
   resp = get_user_input
   if resp == h
     total += deal_card
-  elsif 
+  elsif resp == s
+    return
+  else
+    invalid_command
 end
 
 def invalid_command
-  # code invalid_command here
+  prompt_user
 end
 
 #####################################################
