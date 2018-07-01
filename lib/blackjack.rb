@@ -56,6 +56,7 @@ def runner
   value = initial_round
   until value > 21
    value = hit?(value)
+   display_card_total(value)
   end
   end_game(value)
 end
