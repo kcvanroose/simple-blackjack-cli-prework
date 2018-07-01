@@ -39,6 +39,7 @@ def hit(total)
     return
   else
     invalid_command
+  end
 end
 
 def invalid_command
